@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+// Controlador bien estructurado que maneja las solicitudes GET 
+// para recuperar información de cuentas bancarias basadas en números de documento.
+
 @RestController
 @RequestMapping("/api/v1/cuenta")
 @CrossOrigin("*")
